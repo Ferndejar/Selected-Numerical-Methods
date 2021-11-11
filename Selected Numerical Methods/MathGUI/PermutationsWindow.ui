@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PermutationsWindow</class>
+ <widget class="QMainWindow" name="PermutationsWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>287</width>
+    <height>417</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>287</width>
+    <height>398</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>287</width>
+    <height>417</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Permutacje</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="windowLabel_2">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>10</y>
+      <width>301</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Permutacje</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="descriptionLabel">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>30</y>
+      <width>251</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Program zwraca wartosc sumy czesciowej permutowanego szeregu, ktora przybliza podana wartosc z zadana dokladnoscia lub zawiera wymagana liczbe pierwszych wyrazow</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="precisionLabel">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>140</y>
+      <width>301</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Dokładność:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="precisionEditBox">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>160</y>
+      <width>256</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0.001</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nelemLabel">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>185</y>
+      <width>301</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Liczba pierwszych wyrazów:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="nelemEditBox">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>205</y>
+      <width>256</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="resultLabel">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>270</y>
+      <width>131</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Wynik:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="computeButton">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>235</y>
+      <width>256</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Oblicz</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="resultTextBox">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>290</y>
+      <width>256</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="numberLabel">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>95</y>
+      <width>301</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Liczba:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="numberEditBox">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>115</y>
+      <width>256</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>287</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPomoc">
+    <property name="title">
+     <string>Pomoc</string>
+    </property>
+    <addaction name="actionInstrukcja"/>
+    <addaction name="actionPrzyklad"/>
+   </widget>
+   <addaction name="menuPomoc"/>
+  </widget>
+  <action name="actionInstrukcja">
+   <property name="text">
+    <string>Instrukcja</string>
+   </property>
+  </action>
+  <action name="actionPrzyklad">
+   <property name="text">
+    <string>Przyklad</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

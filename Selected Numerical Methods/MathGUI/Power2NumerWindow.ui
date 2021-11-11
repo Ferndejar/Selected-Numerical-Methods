@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Power2Numbers</class>
+ <widget class="QMainWindow" name="Power2Numbers">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>288</width>
+    <height>275</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>288</width>
+    <height>247</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>288</width>
+    <height>275</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Pierwsze liczby potęgi dwójek</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="windowLabel">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>10</y>
+      <width>301</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Pierwsze liczby potęg 2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="powerLabel">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>35</y>
+      <width>301</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Potęga 2:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="powerEditBox">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>55</y>
+      <width>256</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="computeButton">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>85</y>
+      <width>256</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Oblicz</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="resultLabel">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>120</y>
+      <width>131</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Wynik:</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="resultTextBox">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>140</y>
+      <width>256</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>288</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPomoc">
+    <property name="title">
+     <string>Pomoc</string>
+    </property>
+    <addaction name="actionInstrukcja"/>
+    <addaction name="actionPrzyklad"/>
+   </widget>
+   <addaction name="menuPomoc"/>
+  </widget>
+  <action name="actionInstrukcja">
+   <property name="text">
+    <string>Instrukcja</string>
+   </property>
+  </action>
+  <action name="actionPrzyklad">
+   <property name="text">
+    <string>Przyklad</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

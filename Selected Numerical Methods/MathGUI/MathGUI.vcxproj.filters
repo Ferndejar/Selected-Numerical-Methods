@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MathGUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lista.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Newton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PolynomialRootsWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearRegressionWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Power2NumbersWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuloShiftWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PermutationsWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubseriesWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Power2Numbers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ModuloShift.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LinearRegression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bisection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubseriesHelp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Power2NumbersHelp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PolymonialRootsHelp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PermutationHelp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuloShiftHelp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearRegressionHelp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubseriesGreedyHelp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubseriesLazyHelp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubseriesGapsHelp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubseriesExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Power2NumbersExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PolymonialRootsExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PermutationExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuloShiftExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearRegressionExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubseriesGreedyExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubseriesLazyExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubseriesGapsExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearRegressionExampleOrthogonal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PolymonialRootsExampleNewton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="MathGUI.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="PolynomialRootsWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="LinearRegressionWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Power2NumbersWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ModuloShiftWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="PermutationsWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SubseriesWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SubseriesHelp.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Power2NumbersHelp.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="PolymonialRootsHelp.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="PermutationHelp.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ModuloShiftHelp.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="LinearRegressionHelp.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SubseriesGreedyHelp.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SubseriesLazyHelp.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SubseriesGapsHelp.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SubseriesExample.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Power2NumbersExample.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="PolymonialRootsExample.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="PermutationExample.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ModuloShiftExample.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="LinearRegressionExample.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SubseriesGreedyExample.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SubseriesLazyExample.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SubseriesGapsExample.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="LinearRegressionExampleOrthogonal.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="PolymonialRootsExampleNewton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="MathGUI.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="PolynomialRootsWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="LinearRegressionWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Power2NumerWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ModuloShiftWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="PermutationsWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="SubseriesWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="SubseriesHelp.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Power2NumbersHelp.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="PolymonialRootsHelp.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="PermutationHelp.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ModuloShiftHelp.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="LinearRegressionHelp.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="SubseriesGreedyHelp.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="SubseriesLazyHelp.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="SubseriesGapsHelp.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="SubseriesExample.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Power2NumbersExample.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="PolymonialRootsExample.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="PermutationExample.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ModuloShiftExample.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="LinearRegressionExample.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="SubseriesGreedyExample.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="SubseriesLazyExample.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="SubseriesGapsExample.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="LinearRegressionExampleOrthogonal.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="PolymonialRootsExampleNewton.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="MathGUI.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtRcc Include="Resource.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\lista.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Newton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Power2Numbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ModuloShift.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LinearRegression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Bisection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MathGUI.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DiagramWybraneMetodyNumeryczne.cd" />
+  </ItemGroup>
+</Project>

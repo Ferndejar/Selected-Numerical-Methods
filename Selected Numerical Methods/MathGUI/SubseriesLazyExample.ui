@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SubseriesLazyExample</class>
+ <widget class="QWidget" name="SubseriesLazyExample">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>553</width>
+    <height>713</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>553</width>
+    <height>713</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>SubseriesLazyExample</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>10</y>
+     <width>207</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Przykład</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="descriptionLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>401</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>iloraz = 0,6
+liczba = 1
+dokładność = 0,15</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="descriptionLabel_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>531</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>suma wyrazów od drugiego 0,9 &lt;1 , więc nie możemy pominąć pierwszego wyrazu 0,6 , bo pozostałe nie wystarczają do uzyskania podanej liczby
+
+bierzemy 0,6 (do 1 brakuje nam jeszcze 0,4)
+
+suma wyrazów od trzeciego 0,54 &gt;0,4, więc możemy pominąć wyraz drugi
+suma wyrazów od czwartego 0,324 &lt;0,4, więc nie możemy pominąć wyrazu trzeciego 0,216
+
+bierzemy 0,216
+
+mamy 0,6 +0,216 (brakuje nam jeszcze 0,184)
+suma wyrazów od piątego 0,1944 &gt;0,184, więc możemy pominąć wyraz czwarty
+suma wyrazów od szóstego 0,11664 &lt;0,184, więc nie możemy pominąć wyrazu piątego 0,07776
+
+bierzemy wyraz piąty 0,07776
+0,6+0,216+0,07776 = 0,89376, brakuje nam 0,10624&lt;0,15 do 1 wówczas program zastopuje w tym miejscu zwracając sume pierwszego, trzeciego i piątego wyrazu
+
+wynik 1 3 5
+</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

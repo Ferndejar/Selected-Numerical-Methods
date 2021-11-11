@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ModuloShiftWindow</class>
+ <widget class="QMainWindow" name="ModuloShiftWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>289</width>
+    <height>365</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>287</width>
+    <height>287</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>289</width>
+    <height>365</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Przesunięcie modulo</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="resultLabel">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>235</y>
+      <width>131</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Wynik:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="windowLabel">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>10</y>
+      <width>301</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Przesunięcie modulo</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="computeButton">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>200</y>
+      <width>256</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Oblicz</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="valueLabel">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>140</y>
+      <width>301</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Wartość:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="valueEditBox">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>160</y>
+      <width>256</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="methodGroupBox">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>35</y>
+      <width>256</width>
+      <height>46</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Przesunięcie</string>
+    </property>
+    <widget class="QRadioButton" name="sqrtRadioButton">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>20</y>
+       <width>121</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>o pierwiastek</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="piRadioButton">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>20</y>
+       <width>91</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>o PI</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="eRadioButton">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>20</y>
+       <width>91</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>o e</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="sizeLabel">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>90</y>
+      <width>300</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Rozmiar:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="sizeEditBox">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>110</y>
+      <width>256</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="resultTextBox">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>260</y>
+      <width>256</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>289</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPomoc">
+    <property name="title">
+     <string>Pomoc</string>
+    </property>
+    <addaction name="actionInstrukcja"/>
+    <addaction name="actionPrzyklad"/>
+   </widget>
+   <addaction name="menuPomoc"/>
+  </widget>
+  <action name="actionInstrukcja">
+   <property name="text">
+    <string>Instrukcja</string>
+   </property>
+  </action>
+  <action name="actionPrzyklad">
+   <property name="text">
+    <string>Przyklad</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

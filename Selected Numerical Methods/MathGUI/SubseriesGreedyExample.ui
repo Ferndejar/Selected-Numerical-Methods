@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SubseriesGreedyExample</class>
+ <widget class="QWidget" name="SubseriesGreedyExample">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>404</width>
+    <height>509</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>404</width>
+    <height>509</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>SubseriesGreedyExample</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>10</y>
+     <width>207</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Przykład</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="descriptionLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>401</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>iloraz = 0,6
+iczba = 0.9
+dokładność = 0,1</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="descriptionLabel_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>401</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>0,6 &lt; 1, więc bierzemy pierwszy wyraz do podszeregu
+0,6 + 0,36 =0,96 &gt;0,9
+więc pomijamy drugi wyraz, gdyż nasza suma byłaby zbyt duża
+0,6+0,216 =0,816 &lt;0,9
+więc bierzemy trzeci wyraz
+
+Co więcej zachodzi nierówność:
+0,9 - 0,816 =0,084&lt;0,1
+więc podany podszereg złożony z sumy pierwszego i trzeciego wyrazu zaspokaja dokładność
+
+Wynik: 1 3</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

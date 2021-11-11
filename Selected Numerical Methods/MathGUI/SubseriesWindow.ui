@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SubseriesWindow</class>
+ <widget class="QMainWindow" name="SubseriesWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>287</width>
+    <height>523</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>287</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>287</width>
+    <height>523</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Podszeregi</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="windowLabel_2">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>10</y>
+      <width>301</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Podszeregi</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="methodGroupBox">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>35</y>
+      <width>256</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Metoda</string>
+    </property>
+    <widget class="QRadioButton" name="condCoincidentRadioButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>186</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>szereg warunkowo zbieżny</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="greedyRadioButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>65</y>
+       <width>251</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>metoda greedy</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="lazyRadioButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>251</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>metoda lazy</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>45</y>
+       <width>276</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>szereg bezwzględnie zbieżny geometryczny:</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="gapsRadioButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>115</y>
+       <width>251</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>z lukami</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="numberLabel">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>240</y>
+      <width>301</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Liczba:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="numberEditBox">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>260</y>
+      <width>256</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="precisionLabel">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>290</y>
+      <width>301</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Dokładność:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="precisionEditBox">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>310</y>
+      <width>256</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0.001</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="quotientEditBox">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>210</y>
+      <width>256</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="quotientLabel">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>190</y>
+      <width>301</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Iloraz szeregu:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="resultLabel">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>375</y>
+      <width>131</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Wynik:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="computeButton">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>340</y>
+      <width>256</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Oblicz</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="resultTextBox">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>395</y>
+      <width>256</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>287</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPomoc">
+    <property name="title">
+     <string>Pomoc</string>
+    </property>
+    <widget class="QMenu" name="menuInstrukcja">
+     <property name="title">
+      <string>Instrukcja</string>
+     </property>
+     <addaction name="actionConditionally"/>
+     <addaction name="actionGreedy"/>
+     <addaction name="actionLazy"/>
+     <addaction name="actionGaps"/>
+    </widget>
+    <widget class="QMenu" name="menuPrzyklad">
+     <property name="title">
+      <string>Przyklad</string>
+     </property>
+     <addaction name="actionConditionallyExample"/>
+     <addaction name="actionGreedyExample"/>
+     <addaction name="actionLazyExample"/>
+     <addaction name="actionGapsExample"/>
+    </widget>
+    <addaction name="menuInstrukcja"/>
+    <addaction name="menuPrzyklad"/>
+   </widget>
+   <addaction name="menuPomoc"/>
+  </widget>
+  <action name="actionConditionally">
+   <property name="text">
+    <string>Warunkowo zbieżny</string>
+   </property>
+  </action>
+  <action name="actionGreedy">
+   <property name="text">
+    <string>Metoda Greedy</string>
+   </property>
+  </action>
+  <action name="actionLazy">
+   <property name="text">
+    <string>Metoda Lazy</string>
+   </property>
+  </action>
+  <action name="actionGaps">
+   <property name="text">
+    <string>Z lukami</string>
+   </property>
+  </action>
+  <action name="actionConditionallyExample">
+   <property name="text">
+    <string>Warunkowo zbieżny</string>
+   </property>
+  </action>
+  <action name="actionGreedyExample">
+   <property name="text">
+    <string>Metoda Greedy</string>
+   </property>
+  </action>
+  <action name="actionLazyExample">
+   <property name="text">
+    <string>Metoda Lazy</string>
+   </property>
+  </action>
+  <action name="actionGapsExample">
+   <property name="text">
+    <string>Z lukami</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

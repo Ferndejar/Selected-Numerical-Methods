@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Resources/regresjadrugiegorodzaju.png</file>
+        <file>Resources/regresjadrugiegorodzaju_zmniejszone.png</file>
+        <file>Resources/regresjaortogonalna_zmienione.png</file>
+        <file>Resources/WykresNewtonNowy.png</file>
+    </qresource>
+</RCC>

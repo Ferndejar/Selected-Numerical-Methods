@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Newton" Collapsed="true">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAIAAAAAIAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Newton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Power2Numbers" Collapsed="true">
+    <Position X="23.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAQQAAAAAAEAADAAAAAAAA=</HashCode>
+      <FileName>include\Power2Numbers.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modulo_Shift" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAABAQAAAAAA=</HashCode>
+      <FileName>include\ModuloShift.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinearRegression" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAgAAAAgAAAAAAAAAAAAAoQAAAAAgAAAAgAAAEA=</HashCode>
+      <FileName>include\LinearRegression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bisection" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAgAAAAAAAAAAAAACAAAAAAAAIA=</HashCode>
+      <FileName>include\Bisection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MathGUI" Collapsed="true">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAEgggAAAAAIAAAAwAQAAAAEAAAEBAAAA=</HashCode>
+      <FileName>MathGUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinearRegressionExampleOrthogonal" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>LinearRegressionExampleOrthogonal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PolymonialRootsExampleNewton" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PolymonialRootsExampleNewton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubseriesGapsExample" Collapsed="true">
+    <Position X="21.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SubseriesGapsExample.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubseriesLazyExample" Collapsed="true">
+    <Position X="19.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>SubseriesLazyExample.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubseriesGreedyExample" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SubseriesGreedyExample.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinearRegressionExample" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LinearRegressionExample.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModuloShiftExample" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModuloShiftExample.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PermutationExample" Collapsed="true">
+    <Position X="21.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PermutationExample.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PolymonialRootsExample" Collapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PolymonialRootsExample.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Power2NumbersExample" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Power2NumbersExample.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubseriesExample" Collapsed="true">
+    <Position X="19.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>SubseriesExample.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubseriesGapsHelp" Collapsed="true">
+    <Position X="23.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SubseriesGapsHelp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubseriesLazyHelp" Collapsed="true">
+    <Position X="21.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SubseriesLazyHelp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubseriesGreedyHelp" Collapsed="true">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SubseriesGreedyHelp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinearRegressionHelp" Collapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LinearRegressionHelp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModuloShiftHelp" Collapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>ModuloShiftHelp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PermutationHelp" Collapsed="true">
+    <Position X="23.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>PermutationHelp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PolymonialRootsHelp" Collapsed="true">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>PolymonialRootsHelp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Power2NumbersHelp" Collapsed="true">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Power2NumbersHelp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubseriesHelp" Collapsed="true">
+    <Position X="18" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SubseriesHelp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubseriesWindow" Collapsed="true">
+    <Position X="23.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAAKgEEAAgAAAAAAIAgIgCAABQAAAAUgAACAA=</HashCode>
+      <FileName>SubseriesWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PermutationsWindow" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAEAUAAAAAAAACAAACAAAACAAAAAAAAAE=</HashCode>
+      <FileName>PermutationsWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModuloShiftWindow" Collapsed="true">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAABAAAgAEAEAAAAAAAAAAAACAAAACAABQAAACCA=</HashCode>
+      <FileName>ModuloShiftWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Power2NumbersWindow" Collapsed="true">
+    <Position X="18" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAMAEgAAAAAAAAAAACAAAACAgAAACAAAA=</HashCode>
+      <FileName>Power2NumbersWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinearRegressionWindow" Collapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAQAAAgAEEEAIAAAAAAAAAACAgAAAAAAAgAAAAA=</HashCode>
+      <FileName>LinearRegressionWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PolynomialRootsWindow" Collapsed="true">
+    <Position X="21.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAEAAAAEgEAABAAAAAIAAACAAQIAAACAAAAAAA=</HashCode>
+      <FileName>PolynomialRootsWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="lista" Collapsed="true">
+    <Position X="14.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAABAAAAABAAQAAAAAAAAgQAAAAAAAAA=</HashCode>
+      <FileName>include\lista.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

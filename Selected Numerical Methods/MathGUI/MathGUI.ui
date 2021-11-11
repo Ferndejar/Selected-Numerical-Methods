@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MathGUIClass</class>
+ <widget class="QMainWindow" name="MathGUIClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>185</width>
+    <height>296</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>185</width>
+    <height>296</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>185</width>
+    <height>296</height>
+   </size>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>10</width>
+    <height>10</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Wybrane Metody Numeryczne</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="polynomialRootsButton">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>15</y>
+      <width>156</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Miejsca zerowe wielomianu</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="linearRegressionButton">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>60</y>
+      <width>156</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Regresja liniowa</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pow2NumbersButton">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>105</y>
+      <width>156</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pierwsze liczby potęgi dwójek</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="moduloShiftButton">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>150</y>
+      <width>156</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Przesunięcie modulo</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="permutationsButton">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>195</y>
+      <width>156</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Permutacje</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="subseriesButton">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>240</y>
+      <width>156</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Podszeregi</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="MathGUI.qrc"/>
+ </resources>
+ <connections/>
+</ui>
